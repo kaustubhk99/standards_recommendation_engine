@@ -1,0 +1,50 @@
+# -----------------------------
+# Core Python Utilities
+# -----------------------------
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+tqdm>=4.66.0
+pyyaml>=6.0.1
+
+# -----------------------------
+# PDF Processing & Text Extraction
+# -----------------------------
+pymupdf>=1.23.8
+pdfplumber>=0.11.0
+
+# -----------------------------
+# Text Processing & NLP
+# -----------------------------
+regex>=2023.10.3
+nltk>=3.8.1
+
+# -----------------------------
+# Embeddings & Vector Stores
+# -----------------------------
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+
+# -----------------------------
+# LLM & RAG Orchestration
+# (model-agnostic, safe default)
+# -----------------------------
+langchain>=0.1.16
+langchain-community>=0.0.34
+
+# -----------------------------
+# API Layer
+# -----------------------------
+fastapi>=0.110.0
+uvicorn>=0.29.0
+
+# -----------------------------
+# Data Handling
+# -----------------------------
+numpy>=1.26.0
+pandas>=2.2.0
+
+# -----------------------------
+# Logging & Validation
+# -----------------------------
+loguru>=0.7.2
+jsonschema>=4.21.1
